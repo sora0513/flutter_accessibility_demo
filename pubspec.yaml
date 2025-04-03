@@ -1,5 +1,5 @@
 name: flutter_accessibility_demo
-description: A minimal Flutter app demonstrating VoiceOver and TalkBack accessibility features.
+description: A Flutter app demonstrating accessibility features, Bluetooth connectivity, and maps functionality.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
@@ -11,7 +11,17 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  # flutter_accessibility_service: ^0.1.1  # 必要に応じてコメントを外す
+  # アクセシビリティ向上のためのパッケージ（必要に応じてコメントを外す）
+  # flutter_accessibility_service: ^0.1.1
+
+  # Bluetooth機能
+  #flutter_blue: ^0.8.0
+  flutter_blue_plus: ^1.31.17
+
+  # Google Maps と位置情報
+  google_maps_flutter: ^2.2.5
+  # location: ^4.4.0
+  geolocator: ^10.1.1
 
 dev_dependencies:
   flutter_test:
